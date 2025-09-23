@@ -3,9 +3,6 @@ body{
     margin: 0px;
     background-color: #f8f9fa;
 }
-.navbar-brand{
-    color: blue;
-}
 .shapes{
     display: flex;
     flex-direction: row;
@@ -49,8 +46,7 @@ h2{
     margin-top: 40px;
     margin-left: 91px;
 }
-p{
-    margin-left: 91px;
+.top-section p{
     margin-bottom: 25px;
 }
 h6{
@@ -74,16 +70,13 @@ h6{
     margin-bottom: 30px;
     
 }
-.contain2{
-    height: 546px;
+.project-card{
     margin-top: 100px;
 }
 .card{
-    height: 450px ;
     background-color: #fff;
     display: flex;
     flex-direction: row;
-    width: 1000px;
     margin: auto;
     border: 85px;
 }
@@ -102,51 +95,41 @@ h6{
 }
 h5{
     margin-bottom: 25px;
+    margin-left: 91px;
 }
 .contain3{
-    height:456px;
     background: #fff;
     display: flex;
     flex-direction: row;
+    margin-top: 100px;
 }
-.left-contain{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: left;
-    margin-top: 30px;
-    margin-left: 50px;
+.contain3 p{
+    margin-left: 91px;
 }
 i{
     margin-top: 25px;
     margin-left: 91px;
 }
-.right-contain{
-     display: flex;
-    flex-direction: column;
-    align-items: first baseline;
-    justify-content: right;
-    margin-top: 40px;
-    margin-left: 20px;
-}
 .logos{
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 10px;
     margin-top: 30px;
     margin-bottom: 20px;
 }
 .contain4{
-    height: 556px;
     display: flex;
     align-items: center;
     flex-direction: column;
     color: white;
     background-color: #6070FF;
+    margin-top: 100px; 
+    border-top-right-radius: 50px;
 }
 h1{
     margin-top: 100px; 
 }
+
 .b3{
     background-color: #f8f9fa;
     margin-left: 0px;
