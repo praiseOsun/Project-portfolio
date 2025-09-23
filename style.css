@@ -33,7 +33,7 @@ body{
     display: flex;
     flex-direction: column;
     margin-left: 231px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .top-section{
     min-height: 70vh;
@@ -115,7 +115,7 @@ h5{
     align-items: flex-start;
     justify-content: left;
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 i{
     margin-top: 25px;
@@ -128,6 +128,13 @@ i{
     justify-content: right;
     margin-top: 40px;
     margin-left: 20px;
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .contain4{
     height: 556px;
