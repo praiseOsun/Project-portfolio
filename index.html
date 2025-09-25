@@ -13,7 +13,7 @@
 <nav class="navbar fixed-top navbar-expand-lg bg-light">
   <div class="container">
     <a class="navbar-brand fw-bold text-primary" href="#">My Logo</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -94,7 +94,7 @@
     </br>a project you need coded, don't hesitate to contact me. 
     </p>
     
-    <h5>LET'S CONNECT</h5>
+    <h5 class="text-primary">LET'S CONNECT</h5>
     <div class="social-icons mt-3">
       <a href="#" class="me-2"><i class="bi bi-twitter"></i></a>
       <a href="#" class="me-2"><i class="bi-linkedin"></i></a>
@@ -104,25 +104,42 @@
     <i><button type="button" class="btn btn-outline-primary mt-3">Get my resume</button></i>
   </div>
 
-  <div class="col-md-3 mt-4"> 
-    <h5 class="ms-5 mt-5 fw-semibold">Languages</h5>
-    <div class="logos">
-      <div class="text-center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="30" alt="">
-      <div class="ms-4">JavaScript</div>
-      </div>
-      <div class="text-center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="30" alt="">
-      <div class="ms-4">HTML</div>
-      </div>
-      <div class="text-center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="30" alt="">
-      <div class="ms-4">CSS</div>
-     </div>
-    </div> 
-    <h5 class="ms-5 mt-3 fw-semibold">Frameworks <i class="bi bi-chevron-right"></i></h5>
-    <h5 class="mt-2 fw-semibold">Skills <i class="bi bi-chevron-right"></i></h5>
-  </div>
+ <div class="col-md-3 mt-5"> 
+   <div class="d-flex skills-card align-items-center justify-content-between">  
+    <div>   
+        <h5 class="small text-muted mt-1 ">Languages</h5>
+    </div>
+        <div class="text-end small text-muted"><i class="bi bi-chevron-down"></i></div>
+    </div>
+       <div class="d-flex gap-4 cd">
+          <div class="text-center skills-card">
+               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="30" alt="" class="ms-5">
+               <p>JavaScript</p>
+          </div>
+          <div class="text-center skills-card">
+               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="30" alt="" class="ms-5">
+               <p>HTML</p>
+          </div>
+          <div class="text-center skills-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="30" alt="" class="ms-5">
+              <p>CSS</p>
+          </div>   
+       </div>  
+    <div class="d-flex skills-card align-items-center justify-content-between">  
+    <div>   
+        <h5 class="small text-muted mt-1">Frameworks</h5>
+    </div>
+        <div class="text-end small text-muted">></i></div>
+    </div>
+
+    <div class="d-flex skills-card align-items-center justify-content-between">  
+    <div>   
+        <h5 class="small text-muted mt-1">Skills</h5>
+    </div>
+        <div class="text-end small text-muted"><i class="bi bi-chevron-right"></i></div>
+    </div>
+    
+ </div>
 </section>
 
 <section class="contain4">

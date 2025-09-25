@@ -48,6 +48,7 @@ h2{
 }
 .top-section p{
     margin-bottom: 25px;
+    margin-left: 91px;
 }
 h6{
     color: blue;
@@ -110,13 +111,6 @@ i{
     margin-top: 25px;
     margin-left: 91px;
 }
-.logos{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
 .contain4{
     display: flex;
     align-items: center;
@@ -133,4 +127,10 @@ h1{
 .b3{
     background-color: #f8f9fa;
     margin-left: 0px;
+}
+.skills-card{
+    display: inline-block;
+    background: #EBEBEBFF;
+    border-radius: 5px;
+    margin-bottom: 10px;        
 }
